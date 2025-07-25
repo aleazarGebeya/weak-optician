@@ -8,7 +8,7 @@ export function HeroSection() {
           Elevate Your Business
         </h1>
         <h2 className="text-blue-200 text-2xl md:text-3xl font-medium mb-5 drop-shadow-lg">
-          Premier Solutions for Tomorrow's Leaders
+          Premier Solutions for Tomorrow&apos;s Leaders
         </h2>
         <p className="text-slate-300 max-w-xl mb-8 text-lg md:text-2xl">
           gebeya empowers modern enterprises with innovative strategies, expert teams, and transformational technology, driving growth and excellence across industries.

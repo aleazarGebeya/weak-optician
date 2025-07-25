@@ -11,7 +11,7 @@ export function HeroSection() {
           Premier Solutions for Tomorrow's Leaders
         </h2>
         <p className="text-slate-300 max-w-xl mb-8 text-lg md:text-2xl">
-          CorpVantage empowers modern enterprises with innovative strategies, expert teams, and transformational technology, driving growth and excellence across industries.
+          gebeya empowers modern enterprises with innovative strategies, expert teams, and transformational technology, driving growth and excellence across industries.
         </p>
         <a
           href="#services"

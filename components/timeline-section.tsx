@@ -4,7 +4,7 @@ const timelineEvents = [
   {
     year: "2013",
     title: "Company Founded",
-    description: "CorpVantage was established with the mission to empower global businesses.",
+    description: "gebeya was established with the mission to empower global businesses.",
   },
   {
     year: "2015",

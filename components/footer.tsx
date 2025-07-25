@@ -1,15 +1,4 @@
 import React from "react";
-import { Navigation } from "@/components/navigation";
-import { HeroSection } from "@/components/hero-section";
-import { AboutSection } from "@/components/about-section";
-import { ServicesSection } from "@/components/services-section";
-import { TeamSection } from "@/components/team-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
-import { TimelineSection } from "@/components/timeline-section";
-import { ComparisonSection } from "@/components/comparison-section";
-import { CaseStudiesSection } from "@/components/case-studies-section";
-import { BlogSection } from "@/components/blog-section";
-import { ContactSection } from "@/components/contact-section";
 
 export function Footer() {
   return (

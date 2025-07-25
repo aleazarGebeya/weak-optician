@@ -9,10 +9,10 @@ export function AboutSection() {
         <div className="flex flex-col md:flex-row gap-10 items-start">
           <div className="md:w-2/3 space-y-7 text-lg text-slate-600">
             <p>
-              <span className="font-semibold text-blue-800">gebeya</span> is a forward-thinking consultancy dedicated to propelling organizations to new heights. With decades of combined expertise, our team delivers actionable insights, robust digital solutions, and personalized strategies tailored to each client's vision.
+              <span className="font-semibold text-blue-800">gebeya</span> is a forward-thinking consultancy dedicated to propelling organizations to new heights. With decades of combined expertise, our team delivers actionable insights, robust digital solutions, and personalized strategies tailored to each client&#39;s vision.
             </p>
             <p>
-              Our philosophy centers on collaboration, integrity, and measurable impact. We don't just offer services – we immerse ourselves in your journey, building relationships that last.
+              Our philosophy centers on collaboration, integrity, and measurable impact. We don&#39;t just offer services – we immerse ourselves in your journey, building relationships that last.
             </p>
             <p>
               Our track record speaks for itself: from startups to global enterprises, gebeya has empowered businesses to innovate, scale, and lead in their industries.

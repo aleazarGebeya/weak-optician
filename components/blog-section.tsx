@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export function BlogSection() {
   return (
@@ -8,7 +9,17 @@ export function BlogSection() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Blog previews will be dynamically rendered here from Supabase */}
           <div className="bg-white border border-slate-100 rounded-2xl shadow-xl overflow-hidden flex flex-col hover:shadow-2xl transition-shadow duration-200">
-            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=200&fit=crop&auto=format" alt="Business blog post" className="w-full h-40 object-cover" loading="lazy" />
+            <Image
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=200&fit=crop&auto=format"
+              alt="Business blog post"
+              className="w-full h-40 object-cover"
+              width={400}
+              height={200}
+              loading="lazy"
+              style={{objectFit:'cover'}}
+              priority={false}
+              unoptimized={false}
+            />
             <div className="p-6">
               <div className="text-xs font-semibold uppercase text-blue-700 mb-2">Strategy</div>
               <div className="font-bold text-lg text-gray-800 mb-2">Driving Growth in Uncertain Times</div>
@@ -17,7 +28,17 @@ export function BlogSection() {
             </div>
           </div>
           <div className="bg-white border border-slate-100 rounded-2xl shadow-xl overflow-hidden flex flex-col hover:shadow-2xl transition-shadow duration-200">
-            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=200&fit=crop&auto=format" alt="Transformation insight" className="w-full h-40 object-cover" loading="lazy" />
+            <Image
+              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=200&fit=crop&auto=format"
+              alt="Transformation insight"
+              className="w-full h-40 object-cover"
+              width={400}
+              height={200}
+              loading="lazy"
+              style={{objectFit:'cover'}}
+              priority={false}
+              unoptimized={false}
+            />
             <div className="p-6">
               <div className="text-xs font-semibold uppercase text-blue-700 mb-2">Digital</div>
               <div className="font-bold text-lg text-gray-800 mb-2">Digital Transformation Essentials</div>
@@ -26,7 +47,17 @@ export function BlogSection() {
             </div>
           </div>
           <div className="bg-white border border-slate-100 rounded-2xl shadow-xl overflow-hidden flex flex-col hover:shadow-2xl transition-shadow duration-200">
-            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=200&fit=crop&auto=format" alt="Culture blog" className="w-full h-40 object-cover" loading="lazy" />
+            <Image
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=200&fit=crop&auto=format"
+              alt="Culture blog"
+              className="w-full h-40 object-cover"
+              width={400}
+              height={200}
+              loading="lazy"
+              style={{objectFit:'cover'}}
+              priority={false}
+              unoptimized={false}
+            />
             <div className="p-6">
               <div className="text-xs font-semibold uppercase text-blue-700 mb-2">Culture</div>
               <div className="font-bold text-lg text-gray-800 mb-2">Building High-Performance Teams</div>
